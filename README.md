@@ -1,4 +1,4 @@
-# docker-rvm
+# docker-debian-rvm
 
 a Dockerfile for stable rvm on stable Debian
 
@@ -9,11 +9,23 @@ a Dockerfile for stable rvm on stable Debian
 install [Docker](https://www.docker.io/gettingstarted/#h_installation)
 
 ```
-git clone https://github.com/ahdinosaur/docker-rvm
+git clone https://github.com/ahdinosaur/docker-debian-rvm
+```
+
+### build
+
+```
+docker build -t ahdinosaur/debian-rvm .
 ```
 
 ### run
 
 ```
-docker build -t ahdinosaur/rvm .
+docker run -i -t ahdinosaur/debian-rvm /bin/bash --login
+```
+
+### publish
+
+```
+docker push ahdinosaur/debian-rvm
 ```
