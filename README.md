@@ -1,6 +1,6 @@
-# docker-ruby
+# docker-rvm
 
-a Dockerfile for stable ruby on stable Debian
+a Dockerfile for stable rvm on stable Debian
 
 ## how to
 
@@ -9,11 +9,11 @@ a Dockerfile for stable ruby on stable Debian
 install [Docker](https://www.docker.io/gettingstarted/#h_installation)
 
 ```
-git clone https://github.com/ahdinosaur/docker-ruby
+git clone https://github.com/ahdinosaur/docker-rvm
 ```
 
 ### run
 
 ```
-docker build -t ahdinosaur/ruby .
+docker build -t ahdinosaur/rvm .
 ```
